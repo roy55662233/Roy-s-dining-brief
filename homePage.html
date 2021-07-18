@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>拉麵、酒吧、麻辣鍋 ｜羅伊嚐食</title>
+    <link rel="stylesheet" href="./css/Topic.css">
+    <script src="./_js/jquery-3.4.1.js"></script>
+    <script src="./js/homePage.js">
+
+    </script>
+</head>
+
+
+<body>
+
+    <div class="topBlock" id="topImg">
+        <!-- <button onclick="">登入</button> -->
+        <div class="stickyLog">
+            <p id="topLog">羅伊嚐食</p>
+        </div>
+        <div class="stickyMenu">
+            <ul id="topMenu">
+                <li> <a class="insideA">
+                        <div> 首頁</div>
+                    </a> </li>
+                <li> <a class="insideA" id="btnNoodle">
+                        <div class="insideList"> 拉麵專區</div>
+                    </a> </li>
+                <li> <a class="insideA" id="btnBar">
+                        <div class="insideList">酒吧專區</div>
+                    </a> </li>
+                <li> <a class="insideA" id="btnSpicypot">
+                        <div class="insideList">麻辣鍋專區</div>
+                    </a> </li>
+                <li> <a class="insideA" id="btnText">
+                        <div class="insideList">留言專區</div>
+                    </a> </li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
+    <p class="bigTitle" id="myNoodle">拉麵專區</p>
+
+    <ul class="blockItem">
+        <li class="insideItem">
+            <figure class="inSide">
+                <img src="./img/noodle01.jpg" alt="">
+                <h2><a href="noodle1.html">【台北拉麵】一蘭拉麵台灣台北本店
+                        <br>24小時營業的台北拉麵/</a></h2>
+                <p class="insidetext">
+                    台灣一蘭拉麵號稱完全移植日本一蘭拉麵，不管是麵條還是最有名的天然豚骨湯頭，都是日本原汁原味。
+                </p>
+                <br>
+                <div class="btnHidden" id="btnHidden1" onclick="changeText1('hiddle1')">
+                    【點擊顯示更多】
+                </div>
+                <p class="hiddleText" id="hiddle1">
+                    為了因應日本與台灣氣候上的差異，特別設置「製麵職人」常駐在台，依據每日氣溫和濕度進行調整，製作出最好的「一蘭特製生麵」..
+                    除了一蘭拉麵台灣台北本店外，附近新光三越A11的B1也有一蘭拉麵二館了，一樣是24小時營業，等於光是信義區就有2家一蘭拉麵24小時營業，大幅降低排隊時間。
+                </p>
+            </figure>
+        </li>
+
+        <li class="insideItem">
+            <figure class="inSide">
+                <img src="./img/noodle02.jpg" alt="">
+                <h2><a href="noodle2.html">【台北拉麵】鷹流東京醬油拉麵蘭丸-中山店
+                        <br>湯頭濃郁、肉量爆滿日式拉麵/</a></h2>
+                <p class="insidetext">
+                    2012年的「東京鷹流拉麵」在台北東區誕生了第一家海外分店，老闆是在日本出生，父母皆為正港台灣人，在小的時候曾經住過臺灣，最後在日本接受教育。
+                </p>
+                <br>
+                <div class="btnHidden" id="btnHidden2" onclick="changeText2('hiddle2')">
+                    【點擊顯示更多】
+                </div>
+                <p class="hiddleText" id="hiddle2">
+                    2011年的311東日本大地震後，老闆決定將這一碗用全天然高級食材所熬煮的精華高湯，搭配北海道麵粉加上鷹流製麵技術所製成的拉麵麵條，可以說是全台灣第一濃厚的日本拉麵。
+                </p>
+            </figure>
+        </li>
+
+        <li class="insideItem">
+            <figure class="inSide">
+                <img src="./img/noodle03.jpg" alt="">
+                <h2><a href="noodle3.html">【台北拉麵】Soba Shinn & 柑橘<br>
+                        融入柑橘風味的特色口味拉麵/</a> </h2>
+                <p class="insidetext">
+                    加入柑橘、檸檬等水果元素的拉麵，近幾年挺流行的，多會配置清湯湯底，讓水果風味能得到最大釋放，不會和湯頭相互搶味。
+                </p>
+                <br>
+                <div class="btnHidden" id="btnHidden3" onclick="changeText3('hiddle3')">
+                    【點擊顯示更多】
+                </div>
+                <p class="hiddleText" id="hiddle3">
+                    店內最初是以乾的油拌麵形式打響名號，目前油拌麵依舊是店內的招牌，也另外增加了更多拉麵的風味，在這裡由淡到濃的湯頭都可以品嚐得到，醬油魚介、味噌、雞白湯。
+                </p>
+            </figure>
+        </li>
+
+        <li class="insideItem">
+            <figure class="inSide">
+                <img src="./img/noodle04.jpg" alt="">
+                <h2><a href="noodle4.html">【台北拉麵】鳥人拉麵TOTTO
+                        RAMEN<br>超厚切叉燒雞白濃湯拉麵</a> </h2>
+                <p class="insidetext">
+                    特製雞白湯加上大把的蔥花切絲與洋蔥， 是鳥人拉麵的特色， 不敢吃蔥的朋友記的要先告知， 拉麵可選擇雞肉加或是豬肉
+
+                </p><br>
+                <div class="btnHidden" id="btnHidden4" onclick="changeText4('hiddle4')">
+                    【點擊顯示更多】
+                </div>
+                <p class="hiddleText" id="hiddle4">
+                    除了叉燒本人，還加了些許的叉燒肉絲，拌在一起吃更添口感，炙烤過的豬肉叉燒多了點焦香氣息 肥嫩肥嫩的，可以說是入口即化的等級
+                </p>
+            </figure>
+        </li>
+
+        <li class="insideItem">
+            <figure class="inSide">
+                <img src="./img/noodle05.jpg" alt="">
+                <h2><a href="noodle5.html">【台北拉麵】 重熙老麵<br>
+                        濃醇雞湯拉麵鮮美會回甘</a> </h2>
+                <p class="insidetext">
+                    重熙老麵隱身在小南門人煙稀少的靜謐小巷中，稍不留意就容易錯過的低調氛圍，外觀是日式復古老宅風格搭配古意燈籠，充滿著濃濃日式風情，卻是不知吸引了多少饕客特地前來探尋的人氣拉麵名店。
+                </p><br>
+                <div class="btnHidden" id="btnHidden5" onclick="changeText5('hiddle5')">
+                    【點擊顯示更多】
+                </div>
+                <p class="hiddleText" id="hiddle5">
+                    這裡主打每日以老母雞熬煮八小時，以時間濃縮淬鍊而成的雞濃白湯拉麵，濃郁的雞湯加上Q彈拉麵，入喉醇厚甘甜引人回味，溫醇暖意不僅滋潤了舌腔喉間，也溫暖了疲憊的人心。
+                </p>
+            </figure>
+        </li>
+
+        <li class="insideItem">
+            <figure class="inSide">
+                <img src="./img/noodle06.jpg" alt="">
+                <h2><a href="noodle6.html">【台中拉麵】滝禾製麵所<br>特色濃郁湯頭搭配舒肥肉食</a>
+                </h2>
+                <p class="insidetext">
+                    滝禾製麵所的餐點相當客製化，湯頭、主食、麵條全都可以自行挑選原味、鹽味雞湯是比較清爽的風味，黑蒜、咖哩和麻辣則是較濃郁的湯頭如果麵的湯喝完想再加。<br>
+                </p><br>
+                <div class="btnHidden" id="btnHidden6" onclick="changeText6('hiddle6')">
+                    【點擊顯示更多】
+                </div>
+                <p class="hiddleText" id="hiddle6">
+                    店家可以免費提供清湯，超貼心肉食種類還不少，其中櫻桃鴨胸和板腱牛都是舒肥料理，而肋眼叉燒則是店內主打麵條有細麵和中太麵兩種可以選，細麵還可以挑選軟硬度湯麵可以搭配兩種麵條。
+                </p>
+            </figure>
+
+        </li>
+    </ul>
+
+    <p class="bigTitle" id="myBar">酒吧專區 </p>
+
+    <ul class="blockItem">
+        <li class="insideItem">
+            <figure class="inSide">
+                <img src="./img/bar01.jpg" alt="">
+                <h2><a href="bar1.html">【台北酒吧】Draft
+                        Land<br>2019亞洲最佳50大酒吧之一<br>沒有調酒師的酒吧?</a> </h2>
+                <p class="insidetext">
+                    來這你（妳）不用擔心不知道要喝什麼，甚至不用擔心怎麼和 Bartender 討論喜歡的味道～<br>
+                </p><br>
+                <div class="btnHidden" id="btnHidden7" onclick="changeText7('hiddle7')">
+                    【點擊顯示更多】
+                </div>
+                <p class="hiddleText" id="hiddle7">
+                    因為這裡所有的雞尾酒調酒都可以試飲！ 牆上大概有 18 種左右的雞尾酒調酒， 而且這些雞尾酒調酒全在前方 18 柱汲飲龍頭裡，與一般單杯調製不同，
+                    宛如精釀啤酒般的創新保存技術，讓雞尾酒的滋味更圓潤、口感細膩更融合！
+                </p>
+            </figure>
+        </li>
+
+        <li class="insideItem">
+            <figure class="inSide">
+                <img src="./img/bar02.jpg" alt="">
+                <h2><a href="bar2.html">【台北酒吧】Eside
+                        Bond<br>隱藏在居酒屋地下室的嘻哈酒吧</a> </h2>
+                <p class="insidetext">
+                    以嘻哈為主題的酒吧,在每個夜晚用空間、音樂和酒精，帶你重回九○年代制霸街頭的嘻哈盛世。
+                </p><br>
+                <div class="btnHidden" id="btnHidden8" onclick="changeText8('hiddle8')">
+                    【點擊顯示更多】
+                </div>
+                <p class="hiddleText" id="hiddle8">
+                    ESIDE BOND的裝潢就想是直接把美國東岸的「廢墟籃球場」搬到了台北來，不管是塗鴉、紅磚牆、霓虹、地窖感的油漆等等，都讓人有一秒出國的感覺，假日還有DJ在現場放歌，讓你們體驗最chill的夜晚
+                </p>
+            </figure>
+        </li>
+
+        <li class="insideItem">
+            <figure class="inSide">
+                <img src="./img/bar03.jpg" alt="">
+                <h2><a href="bar3.html">【台北酒吧】Book ing bar<br>
+                        神秘魔法書櫃進入酒吧世界</a> </h2>
+                <p class="insidetext">
+                    位於忠孝敦化站附近的Book ing bar，路過乍看之下以為只是普通的書櫃，只有內行人才知道，Book ing bar隱藏在其後，跟著Book
+                    ing bar踏入童話世界裡頭來喝一杯吧。
+                </p><br>
+                <div class="btnHidden" id="btnHidden9" onclick="changeText9('hiddle9')">
+                    【點擊顯示更多】
+                </div>
+                <p class="hiddleText" id="hiddle9">
+                    酒吧空間每一區都經過精巧設計，營造出英式書館神秘又自然流動的氛圍。仔細注目會發現某些地方有魔術元素，比如撲克牌、會找牌的鴨子、獎盃等等，因為
+                    Booking Bar 的二位老闆都是得過獎的魔術高手，有時他們會出現在店裡，幸運的話能看到精彩的魔術表演
+                </p>
+            </figure>
+        </li>
+
+        <li class="insideItem">
+            <figure class="inSide">
+                <img src="./img/bar04.jpg" alt="">
+                <h2><a href="bar4.html">【台北酒吧】BAR
+                        PUN<br>隱身在信義安和防火巷中神秘酒吧</a> </h2>
+                <p class="insidetext">
+                    「PUN」的雙關表現在台語的「香」與「蜂」上，做為一間標準的 Speakeasy，Bar PUN
+                    將自己藏匿的非常漂亮，在地址顯示的大門處只有生冷黑牆，仿佛你得到的所有資訊都只是個錯誤的幌子，惟有勇敢踏進黑暗才有資格尋香追蜂。
+                </p><br>
+                <div class="btnHidden" id="btnHidden10" onclick="changeText10('hiddle10')">
+                    【點擊顯示更多】
+                </div>
+                <p class="hiddleText" id="hiddle10">
+                    店內像是特權階級與內行人獨享的秘密私人俱樂部，前半部是非常 Fancy 的立飲、吧檯區，後半則以高級家具弄成舒適的 Lounge Bar，規格堪比五星飯店。
+                </p>
+            </figure>
+        </li>
+
+        <li class="insideItem">
+            <figure class="inSide">
+                <img src="./img/bar05.jpg" alt="">
+                <h2><a href="bar5.html">【台北酒吧】CÉ LA VI
+                        Taipei<br>亞洲知名高空酒吧進駐微風南山</a> </h2>
+                <p class="insidetext">
+                    亞洲知名高空酒吧之一的「CÉ LA VI」從新加坡濱海灣金沙酒店57樓開始受到全球關注，以坐擁200公尺高、360 度眺望新加坡天際線與新加坡海峽的超夢幻夜景讓許多旅人嚮往。
+                </p><br>
+                <div class="btnHidden" id="btnHidden11" onclick="changeText11('hiddle11')">
+                    【點擊顯示更多】
+                </div>
+                <p class="hiddleText" id="hiddle11">
+                    而現在想感受「CÉ LA VI」頂級高空酒吧體驗不需要飛到新加坡，「CÉ LA VI」全球最新據點將於微風南山48樓打造CÉ LA VI
+                    Taipei，不僅緊鄰台北最高樓101、更是台北市最高高空酒吧！
+                </p>
+            </figure>
+        </li>
+
+        <li class="insideItem">
+            <figure class="inSide">
+                <img src="./img/bar06.jpg" alt="">
+                <h2><a href="bar6.html">【台中酒吧】Svart
+                        Hull<br>時尚檳榔攤內的黑洞酒吧</a> </h2>
+                <p class="insidetext">
+                    到達地點你會不知道你來的到底是酒吧還是檳榔攤，仔細看才會發現檳榔攤沒有人在賣檳榔，走近一看才會發現裡面能通往的地方大不相同。<br>
+                </p><br>
+                <div class="btnHidden" id="btnHidden12" onclick="changeText12('hiddle12')">
+                    【點擊顯示更多】
+                </div>
+                <p class="hiddleText" id="hiddle12">
+                    Svart Hull 是挪威文的黑洞之意，跟檳榔攤毫無關係，可能純粹老闆喜好而發想，店內除了黑洞概念引人入勝，酒吧空間低調簡約，只有吧檯區能有一絲絲的光亮，其他地方彷彿要被黑洞吸走一般。
+                </p>
+            </figure>
+        </li>
+    </ul>
+
+    <p class="bigTitle" id="mySpicypot">麻辣鍋專區</p>
+
+    <ul class="blockItem">
+        <li class="insideItem">
+            <figure class="inSide">
+                <img src="./img/spicypot01.jpg" alt="">
+                <h2><a href="spicypot1.html">【台北麻辣鍋】詹記麻辣鍋<br>台北市最好吃麻辣鍋</a>
+                </h2>
+                <p class="insidetext">
+                    1994年成立於新莊的《詹記麻辣火鍋》，一直是很多心中台北最好吃的麻辣鍋，從大樓外的牆壁磁磚到張貼的公告都感覺不出來這是間火鍋店。
+                </p><br>
+                <div class="btnHidden" id="btnHidden13" onclick="changeText13('hiddle13')">
+                    【點擊顯示更多】
+                </div>
+                <p class="hiddleText" id="hiddle13">
+                    店內報到完店員會請妳直接進電梯，以為是要搭電梯到幾樓，店員說進去後直接按”開門”， 進去電梯之後按開門直接就是詹記火鍋內用區，電梯是一個穿越的梗， 利用電梯當做入口處，像是穿遇到90年代的時空。
+                </p>
+            </figure>
+        </li>
+
+        <li class="insideItem">
+            <figure class="inSide">
+                <img src="./img/spicypot02.jpg" alt="">
+                <h2><a href="spicypot2.html">【台北麻辣鍋】八條老宅麻辣鍋<br>八條通內中國風情麻辣鍋</a>
+                </h2>
+                <p class="insidetext">
+                    八條老宅麻辣鍋在林森北路的巷子裡面，在台北麻辣鍋搜尋榜上也是前幾名，鍋底辣而不嗆，辣油改良過所以不算太厚重，中藥香氣醇厚，鴨血又嫩又入味。
+                </p><br>
+                <div class="btnHidden" id="btnHidden14" onclick="changeText14('hiddle14')">
+                    【點擊顯示更多】
+                </div>
+                <p class="hiddleText" id="hiddle14">
+                    黃牛胸肉絕對是來到八條老宅必點，在鍋裡涮太久，大概涮個5秒就差不多了 看起來白色油脂的部分很多 但其實吃起來完全不肥膩。
+                </p>
+            </figure>
+        </li>
+
+        <li class="insideItem">
+            <figure class="inSide">
+                <img src="./img/spicypot03.jpg" alt="">
+                <h2><a href="spicypot3.html">【台北麻辣鍋】蔡記隆府龍頭寺老灶火鍋<br>帶有龍頭古代宅院的建築麻辣鍋</a>
+                </h2>
+                <p class="insidetext">
+                    從大門縱橫成行的門釘、銅金色門鈸與窗櫺雕花，推開門後象徵中國神獸的龍頭裝飾在用餐空間中，裡外一致的霸氣風格。
+                </p><br>
+                <div class="btnHidden" id="btnHidden15" onclick="changeText15('hiddle15')">
+                    【點擊顯示更多】
+                </div>
+                <p class="hiddleText" id="hiddle15">
+                    在中國天津出生的老闆蔡閩川，操著一口標準普通話，因為喜歡吃辣而決定到四川拜師學藝。「老師傅因為想把四川的麻辣鍋文化在全球發揚光大，所以無償協助。」因此他花費了約半年時間，每個月往返兩次學習，才把這用了將近
+                    40 種辛香料的鍋底帶回台灣。
+                </p>
+            </figure>
+        </li>
+
+        <li class="insideItem">
+            <figure class="inSide">
+                <img src="./img/spicypot04.jpg" alt="">
+                <h2><a href="spicypot4.html">【台中麻辣鍋】鼎王麻辣鍋<br>特色濃郁湯頭搭配舒肥肉食</a>
+                </h2>
+                <p class="insidetext">
+                    1991年，鼎王麻辣鍋創始店，在美味齊聚、熱鬧擁擠的台中市忠孝夜市設立。
+                </p><br>
+                <div class="btnHidden" id="btnHidden16" onclick="changeText16('hiddle16')">
+                    【點擊顯示更多】
+                </div>
+                <p class="hiddleText" id="hiddle16">
+                    要在各式小吃環伺的忠孝夜市中， 贏得饕客的鍾愛，必須有其獨到之處，鼎王的麻辣鍋湯頭採用牛油、蔬果、中藥類辛香料等製成，香味十足、風味絕佳。
+                    從最初的小吃店， 歷經不同階段的轉型蛻變， 打造融合中式傳統藝術與現代美學的餐飲空間設計， 並首創服務人員鞠躬禮儀。
+                </p>
+            </figure>
+        </li>
+
+
+    </ul>
+
+    <p class="bigTitle" id="myText">留言專區</p>
+    <div id="textPlace">
+        <h3>可以告訴我哪裡有甚麼好吃，讓我來繼續新增分享</h3>
+        <label for="">店家名稱:</label><input type="text" name="" id="pp"><br>
+        <label for="">美食類型:</label>
+        <select>
+            <option value="noodle">拉麵</option>
+            <option value="bar">酒吧</option>
+            <option value="spicypot">麻辣鍋</option>
+        </select><br>
+        <label for="">地區:</label>
+        <select name="" id="">
+            <option value="">台北</option>
+            <option value="">台中</option>
+        </select><br>
+        <label for="">推薦必點:</label><input type="text"><br>
+        <label for="">其他建議</label><br>
+        <textarea id="textSuggest" onFocus="if(this.value==this.defaultValue) this.value=''"
+            onBlur="if(this.value=='') this.value=this.defaultValue">請輸入說明</textarea><br>
+        <button style="margin-left: 200px;" id="submit" value="Login">提交</button>
+    </div>
+
+    <div>
+        <img id="goTop" src="./img/top.png" alt="">
+    </div>
+
+</body>
+
+</html>

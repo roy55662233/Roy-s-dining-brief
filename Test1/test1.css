@@ -1,0 +1,38 @@
+.topBlock {
+    margin: auto;
+    height: 10vw;
+    width: 100vw;
+      text-align: center;
+}
+
+#topName {
+    font-size: 100px;
+    margin: auto;
+    margin-top: -550px;
+    width: 700px;
+    text-align: center;
+    background-color: rgba(242, 243, 243, 0.5);
+    color: rgb(13, 11, 90);
+}
+
+#topImg {
+    margin: auto;
+    width: 900px;
+    height: 400px;
+    opacity: 0.5;
+}
+
+#topMenu>li {
+    list-style: none;
+    border: #ccc 1px solid;
+    width: 400px;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(242, 243, 243, 0.5);
+}
+
+#topMenu {
+   
+    margin-top: 150px;
+}
